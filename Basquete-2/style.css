@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+p, ul{
+    margin: 2px;
+    font-size: 1.5rem;
+}
+.header{
+    width: auto;
+    height: 10rem;
+    background-color: hsl(0, 0%, 50%);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+    margin: 15px;
+    background-color: brown;
+}
+.title-container{
+    display: flex;
+    align-items: center;
+}
+.socials{
+    width: 25%;
+    margin: 15px;
+    background-color: brown;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: hsl(39, 100%, 40%);
+}
+.menu-container{
+    width: 25%;
+    background-color: purple;
+    flex: initial;
+}
+.menu{
+    padding: 1rem;
+    background-color: purple;
+    flex: auto;
+    
+}
+.content-container{
+    width: 75%;
+    flex: initial;
+    background-color: hsl(39, 100%, 40%);
+}
+.content{
+    padding: 1rem;
+    background-color: hsl(39, 100%, 40%);
+    
+}
+.footer{
+    width: auto;
+    height: 10rem;
+    background-color: hsl(0, 0%, 25%);
+}
