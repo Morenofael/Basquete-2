@@ -8,6 +8,10 @@ h2{
 p, ul{
     margin: 2px;
     font-size: 1.5rem;
+    color:black;
+}
+a{
+    color:black;
 }
 .header{
     width: auto;
@@ -78,5 +82,13 @@ p, ul{
 }
 .ifpr-logo{
     width:auto;
-    height:3rem;
+    height:4rem;
+}
+
+/*
+creation
+*/
+.creation-image{
+    width: auto;
+    height:20rem;
 }
