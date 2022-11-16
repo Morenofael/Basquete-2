@@ -2,6 +2,9 @@ body{
     background-color: black;
     margin: 0px;
 }
+h2{
+    margin:0;
+}
 p, ul{
     margin: 2px;
     font-size: 1.5rem;
@@ -11,24 +14,29 @@ p, ul{
     height: 10rem;
     background-color: hsl(0, 0%, 50%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.logo-container{
+    display:flex;
+    align-items: center;
 }
 .logo{
-    width: 25%;
-    margin: 15px;
-    background-color: brown;
+    width:auto;
+    height:9rem;
 }
 .social{
-    
+    width:auto;
+    height:5rem;
 }
 .title-container{
     display: flex;
     align-items: center;
 }
 .socials{
-    width: 25%;
-    margin: 15px;
-    background-color: brown;
+    width:15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .container{
     display: flex;
@@ -61,4 +69,14 @@ p, ul{
     width: auto;
     height: 10rem;
     background-color: hsl(0, 0%, 25%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+}
+.ifpr-logo{
+    width:auto;
+    height:3rem;
 }
