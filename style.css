@@ -18,6 +18,9 @@ p, ul{
     margin: 15px;
     background-color: brown;
 }
+.social{
+    
+}
 .title-container{
     display: flex;
     align-items: center;
