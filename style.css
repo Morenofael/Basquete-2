@@ -109,3 +109,11 @@ athletes
 .card-wide{
     grid-column: span 2/auto;
 }
+
+/*
+Imagens
+*/
+.table-pic{
+    height:auto;
+    width:10rem;
+}
